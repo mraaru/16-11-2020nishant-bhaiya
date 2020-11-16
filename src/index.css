@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Kadwa&family=Kalam:wght@300&family=Karma&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Cinzel&display=swap");
+
+html {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(255, 255, 241);
+}
+body {
+  max-width: 1500px;
+  width: 100%;
+  background-color: rgb(252, 255, 241);
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  
+}
+
+::-webkit-scrollbar {
+  width: 0;
+}
+Link{
+  cursor: pointer;
+}
+.toggle_btn{
+  cursor: pointer;
+}
